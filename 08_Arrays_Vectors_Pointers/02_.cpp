@@ -20,24 +20,9 @@ void referenceExample() {
     cout << "After modifying ref, x = " << x << endl << endl;
 }
 
+// Make sure to understand next file before this below.
 /*
-    5. DYNAMIC MEMORY ALLOCATION
-    -----------------------------
-    - Memory can be allocated dynamically using `new` and `delete`.
-    - Use `new` for heap memory allocation and `delete` to free memory.
-*/
-void dynamicMemoryExample() {
-    int* dynVar = new int(25); // Dynamically allocate an integer
-
-    cout << "Dynamic Memory Example:" << endl;
-    cout << "Dynamically allocated value: " << *dynVar << endl;
-
-    delete dynVar; // Free the allocated memory
-    cout << "Memory freed!" << endl << endl;
-}
-
-/*
-    6. FUNCTION POINTERS
+    5. FUNCTION POINTERS
     ----------------------
     - Function pointers store addresses of functions.
     - They can be used to call functions dynamically.
@@ -53,6 +38,5 @@ void functionPointerExample() {
 
 int main(){
     referenceExample();
-    dynamicMemoryExample();
     functionPointerExample();
 }

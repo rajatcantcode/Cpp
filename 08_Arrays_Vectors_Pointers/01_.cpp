@@ -20,7 +20,7 @@ using namespace std;
     1. POINTERS
     -----------
     - A pointer is a variable that is just used to store the address of another variable.
-    - Use * (dereference) to access the value stored at the address.
+    - * is used to store the value of address.
 */
 void pointerExample() {
     int a = 10;
