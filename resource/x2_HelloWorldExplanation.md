@@ -14,7 +14,7 @@ int main() {
 
 #### Inside the iostream library
 
-![Alt text](../assets/x1_iostream.png)
+<img src="../assets/x1_iostream.png" alt="Alt text" width="300" height="200">
 
 - `#include <iostream>`: This is a preprocessor directive that includes the Input-Output Stream library in C++.
 - `using namespace std;`: This allows us to use standard C++ functions without prefixing `std::`.
@@ -99,7 +99,7 @@ In C++, we are working with a **statically typed** language, so we need to speci
 
 - **`void main()`** means the program is not returning anything, and the operating system won’t know if the program finished correctly. While some compilers may allow `void main()`, **it is not standard** in C++ and should be avoided.
 
-![Image of failed execution with void return type](../assets/x2_void.png)
+<img src="../assets/x2_void.png" alt="Image of failed execution with void return type" width="500" height="370">
 
 ### What Are Exit Codes?
 
